@@ -35,6 +35,8 @@ public class Travel : PlayerState
         parent.AngularVelocity += movement.x * parent.Agent.AngularAccelerationMax * delta;
 
         parent.PhysicsProcess(delta);
+
+        poop
     }
 
     public Vector2 GetMovement()
